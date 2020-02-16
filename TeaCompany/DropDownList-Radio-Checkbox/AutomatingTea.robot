@@ -12,7 +12,6 @@ Handling DropDowns and Lists
     Capture Page Screenshot         C:/Users/MASAFI/Desktop/Tools/Eclipse/TeaCompany/Page.png 
     ${title}                        Get Title
     Log To Console                  ${title}    
-    #Title Should Be                 practice-form
     Capture Element Screenshot      xpath://*[@id="wsb-element-00000000-0000-0000-0000-000452032346"]/div/h1    C:/Users/MASAFI/Desktop/Tools/Eclipse/TeaCompany/PracticeForm.png                         
     Input Text                      name=firstname    Masoud 
     Input Text                      name=lastname    Safi 
@@ -24,8 +23,7 @@ Handling DropDowns and Lists
     Unselect Checkbox               name=RedTea 
     Select Checkbox                 id=tool-0       
     Select From List By Label       id=continents     Australia
-    #Set Selenium Speed              2seconds
-    sleep    1
+    sleep    2
     Select From List By Index       id=continents    5   
     #Select From List By Value    id=continents 
         
